@@ -6,3 +6,6 @@ The waterfowl is a 36 key split keyboard with 2 encoders and an oled screen per 
 
 More Information can be found here https://waterfowl.bio.link/
 
+QMK Firmware repo: https://github.com/qmk/qmk_firmware/tree/master/keyboards/waterfowl
+
+ZMK Firmware repo: https://github.com/JW2586/zmk/tree/main/app/boards/shields/waterfowl
