@@ -1,5 +1,5 @@
 #completely copied from microdox setup
-# only removed rgb and underglow functionality so far, added international and media keys 
+# only removed rgb and underglow functionality so far, added international and media keys
 
 import supervisor
 
@@ -30,12 +30,11 @@ oled_ext = Oled(OledData(corner_one={0:OledReactionType.STATIC,1:["1 2 3 4 5 6",
 # oled
 keyboard.extensions.append(oled_ext)
 
+#commenting out necessary or automatically possible via peg/fw?
 # TODO Comment one of these on each side
 #split_side = SplitSide.LEFT
 #split_side = SplitSide.RIGHT
-
 split = Split(split_side=SplitSide.LEFT)
-keyboard.modules.append(split)
 keyboard.modules.append(split)
 
 # keymap

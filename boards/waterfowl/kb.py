@@ -35,6 +35,7 @@ class KMKKeyboard(_KMKKeyboard):
 
 
         ]
+    #updated rows and column pins and diode orientation to match qmk settings
     row_pins = (board.GP04, board.GP05, board.GP06, board.GP07)
     col_pins = (board.GP29, board.GP28, board.GP27, board.GP26, board.GP22)
     diode_orientation = DiodeOrientation.COL2ROW
